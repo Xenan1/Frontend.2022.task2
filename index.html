@@ -17,20 +17,22 @@
 <body class="page">
     <article class="page__content content">
         <header class="content__header header">
-            <img src="media\logo.png" class="header__image" alt="">
-            <div class="header__menu header-menu">
-                <nav class="header-menu__nav">
-                    <ul class="header-menu__nav-list">
-                        <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Главная</a></li>
-                        <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Информация</a></li>
-                        <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Новости</a></li>
-                        <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <span class="header-menu__profile-item profile-menu-item">
-                    Кирилл
-                    <img src="media\profile-pic.png" class="profile-menu-item__image" alt="">
-                </span>
+            <div class="header__inner container">
+                <img src="media\logo.png" class="header__image" alt="">
+                <div class="header__menu header-menu">
+                    <nav class="header-menu__nav">
+                        <ul class="header-menu__nav-list">
+                            <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Главная</a></li>
+                            <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Информация</a></li>
+                            <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Новости</a></li>
+                            <li class="header-menu__nav-list-item"><a class="header-menu__nav-list-ref" href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <span class="header-menu__profile-item profile-menu-item">
+                        Кирилл
+                        <img src="media\profile-pic.png" class="profile-menu-item__image" alt="">
+                    </span>
+                </div>
             </div>
         </header>
         <div class="container">
@@ -87,11 +89,14 @@
                     <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dignissimos.</p>
                     <time class="article__date">Feb 12, 2020 · 11 min read</time>
                 </article>
-            </article>
+            </article>  
         </div>
         <footer class="content__footer">
-            © 2022 Институт космических и информационных технологий СФУ
-        </footer>
+            <div class="container">
+                © 2022 Институт космических и информационных технологий СФУ
+            </div>  
+        </footer>       
     </article>
+    
 </body>
 </html>

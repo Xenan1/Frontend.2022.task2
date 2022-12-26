@@ -6,18 +6,14 @@ body {
 .content__header {
     background-color: #1F2937;
     height: 80px;
-    display: flex;
-    flex-direction: row;
-    color:white;
-    align-items: center;
-    align-content: center;
-    padding-inline: 15%;
+    
 }
 .content__articles {
     margin-top: 100px;
     display: flex;
     gap: 15px;
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 .content__footer {
     height: 70px;
@@ -27,28 +23,36 @@ body {
     padding-block: 24px;
     text-align: right;
     margin-top: 100px;
-    padding-inline: 15%;
+}
+.content__footer-inner {
+    text-align: right;
 }
 
     /* HEADER */
+.header__inner {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: center;
+}
 .header__menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     width: 100%;
 }
 .header-menu__profile-item {
     align-self: center;
-    justify-self: flex-end;
-    margin-left: 27%;
     display: flex;
     align-items:center;
     grid-gap: 10px;
 }
 .header__image {
     width: 252px;
-    margin-right: -7%;
+    height: 60px;
+    align-self: center;
 }
 
     /* HEADER MENU */
@@ -56,20 +60,22 @@ body {
     height: 40px;
     border-radius: 20px;
 }
-.header-menu__nav-list-item {
-    padding: 8px;
-    transition: 400ms;
-}
-.header-menu__nav-list-item:hover {
-    background-color:#151d29;
-    border-radius: 5px;
-    color: rgb(233, 233, 233)
-    
-}
+
 .header-menu__nav-list {
     display: flex;
-    grid-gap: 10px;
+    gap: 5%;
+    margin-left: 5%;
 }
+.header-menu__nav-list-item {
+    transition: 400ms;
+    border-radius: 5px;
+    padding: 10px;
+}
+.header-menu__nav-list-item:hover {
+    background-color: #161f2b;
+    border-radius: 5px;
+}
+
 
     /* PERSONAL PAGE */
 .personal__main {
@@ -132,7 +138,7 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 32%;
 }
 .article__image {
     border-radius: 10px 10px 0 0;
@@ -154,7 +160,6 @@ body {
 .text__content {
     padding-inline: 20px;
 }
-
 .article__date {
     padding: 15px;
     color: #6B7280;
