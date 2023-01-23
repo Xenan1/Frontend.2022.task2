@@ -153,12 +153,9 @@ body {
     flex-grow: 1;
 }
 .text__head {
-    padding-inline: 20px;
+
     font-size: 20px;
     margin-bottom: 10px;
-}
-.text__content {
-    padding-inline: 20px;
 }
 .article__date {
     padding: 15px;
